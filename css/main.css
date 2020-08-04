@@ -1,0 +1,107 @@
+h1 {
+  font: italic 700 2rem Copperplate, "Copperplate Gothic Light", fantasy;
+  text-decoration: underline;
+  color: red;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+h2 {
+  font: italic 500 1.5rem Copperplate, "Copperplate Gothic Light", fantasy;
+  text-decoration: underline;
+  color: green;
+  text-transform: capitalize;
+  padding-top: 25px;
+}
+
+nav {
+  display: inline-block;
+  background-color: #080a4a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+body {
+  font: normal 400 20px/1.2 "Goudy Old Style", Garamond, "Big Caslon",
+    "Times New Roman", serif;
+  background-color: #46c2db;
+  animation-name: color_loop;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color_loop {
+  0% {
+    background-color: plum;
+  }
+  25% {
+    background-color: palegreen;
+  }
+  50% {
+    background-color: rosybrown;
+  }
+  75% {
+    background-color: grey;
+  }
+  100% {
+    background-color: pink;
+  }
+}
+
+header {
+  background-color: #ffeee4;
+  display: flex;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 25px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #ffeee4;
+  margin: auto;
+  text-align: center;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-color: #19198a;
+  color: red;
+  font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+fieldset,
+legend {
+  text-align: center;
+}
+
+input {
+  background-color: black;
+  border: 2px ridge grey;
+  color: white;
+}
+
+a {
+  font-weight: 900;
+  background-color: #080a4a;
+  color: #cfc10a;
+  text-decoration: underline;
+  text-decoration-color: #19198a;
+}

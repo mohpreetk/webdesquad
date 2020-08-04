@@ -1,0 +1,12 @@
+PROJECT REVIEW
+
+I was very excited to improve the fuctionality of my existing application, but I was still thinking what special can i do to it. Then, I was introduced to the concept of MVC. It caught my attention in first go and I decided to use this model for my project. I literally had to begin from scratch but Murach's MVC code provided by my instructor(Jessica Gilfillan) was very useful.
+
+There were many challenges that I faced and the biggest one was the debugging section. There were many things that were showing up in an awkward manner. Finding each error and then repeating the whole process was draining and frustrating. I faced a large difficulty in sql. There was no exception with the database but the execution of query showed a blank page and the record was never inserted into the database. In order to solve the issues, Google and W3Schools proved no luck. Then, suddenly, everything worked and I tested and debugged the app. When I uploaded my app to the server, everything vanished and I was left with blank pages on query execution, no error, nothing. I came back to localhost but it stopped working here too. No ideas as to what happened.
+
+The biggest thing that I learned is using MVC to organize code. It seemed confusing in the beginning but improved during the course of the project. The videos and codes provided by my instructor were equally helpful and gave me much needed insights. Talking about html and php, I blended both of them to store a list of countries in the dropdown menu in a different file and using it in index.php with the help of php script. I also learned how to
+
+This project still has a large scope for improvement and refinement.
+We still need to look into security issues.
+There are accounts with same username and we do not have validation for them. This is important because we are logging the user in by using user name, so it should be unique. Otherwise only the first record will be fetched and the password for second user will never match.
+Providing prompts for the skills that are relevant to industry can save time.
